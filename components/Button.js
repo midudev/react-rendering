@@ -4,7 +4,7 @@ export default function Button({children, onClick}) {
       <button onClick={onClick}>{children}</button>
       <style jsx>{`
         button {
-          align-items: center;
+          align-items: left;
           background: transparent;
           border: 1px solid #ccc;
           border-radius: 50px;
